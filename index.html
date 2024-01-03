@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>docplanne</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html"
+        ><img src="./assest/docplanner-icon.png" alt="" id="icon"
+      /></a>
+      <div>
+        <a href="about-us" id="about">About us</a>
+        <a href="career"> career</a>
+        <a href="departments">Departments</a>
+      </div>
+    </header>
+    <section class="intro">
+      <img src="./assest/logo.png" alt="logo" id="logo" />
+      <p id="title">Making the healthcare experience more human</p>
+      <div class="parintro">
+        <div class="leftp">
+          <p>
+            We want patients to find the perfect doctor and book an appointment
+            in the most easy way. The patient journey should be enjoyable, and
+            that's why we are always next to them: to help them find the best
+            possible care. Anytime, anywhere.
+          </p>
+        </div>
+        <div class="righp">
+          <p>
+            We also help doctors to better manage their practice and build their
+            online reputation. With our integrated end-to-end solution, doctors
+            are able not only to improve their online presence, but also to
+            devote their time to what really matters: their patients.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- les cartes -->
+    <section class="cards">
+      <div id="patient" class="carte">
+        <div>
+          <img src="./assest/patient.png" alt="" class="icon" />
+          <h1>For patients</h1>
+          <p>Find a doctor, book a visit  and solve any health-related doubt</p>
+        </div>
+        <div>
+          <select
+            id="selectpat"
+            name="country"
+            class="form-control"
+            id="choosecountry"
+          >
+            <option value="choose">choose your country</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Åland Islands">Åland Islands</option>
+            <option value="Albania">Albania</option>
+            <option value="Algeria">Algeria</option>
+            <option value="American Samoa">American Samoa</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Angola">Angola</option>
+            <option value="Anguilla">Anguilla</option>
+            <option value="Antarctica">Antarctica</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Egypt">Egypt</option>
+            <option value="El Salvador">El Salvador</option>
+            <option value="Equatorial Guinea">Equatorial Guinea</option>
+            <option value="Eritrea">Eritrea</option>
+            <option value="Estonia">Estonia</option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="Faroe Islands">Faroe Islands</option>
+            <option value="Fiji">Fiji</option>
+            <option value="Finland">Finland</option>
+            <option value="France">France</option>
+            <option value="Gabon">Gabon</option>
+            <option value="Gambia">Gambia</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Germany">Germany</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Seychelles">Seychelles</option>
+            <option value="Sierra Leone">Sierra Leone</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Slovakia">Slovakia</option>
+            <option value="Slovenia">Slovenia</option>
+            <option value="Solomon Islands">Solomon Islands</option>
+            <option value="Somalia">Somalia</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Spain">Spain</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Sudan">Sudan</option>
+            <option value="Suriname">Suriname</option>
+            <option value="Svalbard and Jan Mayen">
+              Svalbard and Jan Mayen
+            </option>
+            <option value="Swaziland">Swaziland</option>
+            <option value="Sweden">Sweden</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+            <option value="Taiwan">Taiwan</option>
+            <option value="Tajikistan">Tajikistan</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Timor-leste">Timor-leste</option>
+            <option value="Togo">Togo</option>
+            <option value="Tokelau">Tokelau</option>
+            <option value="Tonga">Tonga</option>
+            <option value="Tunisia">Tunisia</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Tuvalu">Tuvalu</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Ukraine">Ukraine</option>
+            <option value="United Arab Emirates">United Arab Emirates</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United States">United States</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Uzbekistan">Uzbekistan</option>
+            <option value="Vanuatu">Vanuatu</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Viet Nam">Viet Nam</option>
+            <option value="Yemen">Yemen</option>
+            <option value="Zambia">Zambia</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+          </select>
+        </div>
+      </div>
+      <div id="doctor" class="carte">
+        <img src="./assest/doctor.png" alt="" class="icon" />
+        <h1>For doctors</h1>
+        <p>Save time managing visits and cut no-shows by half</p>
+        <div>
+          <select
+            id="selectdoc"
+            name="country"
+            class="form-control"
+            id="choosecountry"
+          >
+            <option value="choose">choose your country</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Åland Islands">Åland Islands</option>
+            <option value="Albania">Albania</option>
+            <option value="Algeria">Algeria</option>
+            <option value="American Samoa">American Samoa</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Angola">Angola</option>
+            <option value="Anguilla">Anguilla</option>
+            <option value="Antarctica">Antarctica</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Egypt">Egypt</option>
+            <option value="El Salvador">El Salvador</option>
+            <option value="Equatorial Guinea">Equatorial Guinea</option>
+            <option value="Eritrea">Eritrea</option>
+            <option value="Estonia">Estonia</option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="Faroe Islands">Faroe Islands</option>
+            <option value="Fiji">Fiji</option>
+            <option value="Finland">Finland</option>
+            <option value="France">France</option>
+            <option value="Gabon">Gabon</option>
+            <option value="Gambia">Gambia</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Germany">Germany</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Seychelles">Seychelles</option>
+            <option value="Sierra Leone">Sierra Leone</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Slovakia">Slovakia</option>
+            <option value="Slovenia">Slovenia</option>
+            <option value="Solomon Islands">Solomon Islands</option>
+            <option value="Somalia">Somalia</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Spain">Spain</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Sudan">Sudan</option>
+            <option value="Suriname">Suriname</option>
+            <option value="Svalbard and Jan Mayen">
+              Svalbard and Jan Mayen
+            </option>
+            <option value="Swaziland">Swaziland</option>
+            <option value="Sweden">Sweden</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+            <option value="Taiwan">Taiwan</option>
+            <option value="Tajikistan">Tajikistan</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Timor-leste">Timor-leste</option>
+            <option value="Togo">Togo</option>
+            <option value="Tokelau">Tokelau</option>
+            <option value="Tonga">Tonga</option>
+            <option value="Tunisia">Tunisia</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Tuvalu">Tuvalu</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Ukraine">Ukraine</option>
+            <option value="United Arab Emirates">United Arab Emirates</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United States">United States</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Uzbekistan">Uzbekistan</option>
+            <option value="Vanuatu">Vanuatu</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Viet Nam">Viet Nam</option>
+            <option value="Yemen">Yemen</option>
+            <option value="Zambia">Zambia</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+          </select>
+        </div>
+      </div>
+      <div id="hospital" class="carte">
+        <img src="./assest/hospital (2).png" alt="" class="icon" />
+        <h1>For clinics</h1>
+        <p>Deliver an exceptional patient experience in your clinic</p>
+        <div>
+          <div>
+            <select id="country" name="country" class="selecthos">
+              <option value="choose">2 to 20 specialist</option>
+              <option value="Antarctica">Antarctica</option>
+              <option value="Argentina">Argentina</option>
+              <option value="France">France</option>
+              <option value="Germany">Germany</option>
+              <option value="Taiwan">Taiwan</option>
+              <option value="Tajikistan">Tajikistan</option>
+              <option value="Thailand">Thailand</option>
+              <option value="Timor-leste">Timor-leste</option>
+              <option value="Togo">Togo</option>
+              <option value="Tokelau">Tokelau</option>
+              <option value="Tonga">Tonga</option>
+              <option value="Tunisia">Tunisia</option>
+              <option value="Turkey">Turkey</option>
+            </select>
+          </div>
+          <div>
+            <select id="country" name="country" class="selecthos">
+              <option value="choose">more than 20 specialist</option>
+              <option value="Albania">Albania</option>
+              <option value="Algeria">Algeria</option>
+              <option value="American Samoa">American Samoa</option>
+              <option value="Andorra">Andorra</option>
+              <option value="Angola">Angola</option>
+              <option value="Anguilla">Anguilla</option>
+              <option value="Antarctica">Antarctica</option>
+              <option value="Argentina">Argentina</option>
+              <option value="France">France</option>
+              <option value="Germany">Germany</option>
+              <option value="Seychelles">Seychelles</option>
+              <option value="Sierra Leone">Sierra Leone</option>
+              <option value="Singapore">Singapore</option>
+              <option value="Sweden">Sweden</option>
+              <option value="Tonga">Tonga</option>
+              <option value="Tunisia">Tunisia</option>
+              <option value="Turkey">Turkey</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionlogo">
+      <div class="sect3">
+      <div id="left">
+        <p>
+          We are a global <br />
+          company <br />
+          with local culture
+        </p>
+      </div>
+      <div class="logos">
+        <img src="./assest/1.png" alt="" />
+        <img src="./assest/2.png" alt="" />
+        <img src="./assest/3.png" alt="" />
+        <img src="./assest/4.png" alt="" />
+        <img src="./assest/5.jpg" alt="" />
+        <img src="./assest/6.png" alt="" />
+        <img src="./assest/7.png" alt="" />
+        <img src="./assest/8.png" alt="" />
+        <img src="./assest/9.png" alt="" />
+        <img src="./assest/10.png" alt="" />
+      </div></div>
+    </section>
+    <!-- section 4 -->
+    <section class="section4">
+      <div id="div1">
+        <h2>
+          The world's biggest <br />
+          healthcare platform
+        </h2>
+        <p>
+          We work from 9 offices all over the world, bringing <br />
+          Docplanner <br />
+          Group to life in 13 countries.
+        </p>
+        <img src="./assest/logo2.png" alt="" />
+      </div>
+      <div id="div2">
+        <div id="divleft">
+          <div class="undiv">
+            <img src="./assest/div1.png" alt="" />
+            <h3>Leader in 13 countries</h3>
+            <p>
+              Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia,
+              Czech Republic, Portugal, Argentina, Peru and Chile
+            </p>
+          </div>
+          <div class="undiv">
+            <img src="./assest/div2.png" alt="" />
+            <h3>90,000,000 patients</h3>
+            <p>visit our websites each month</p>
+          </div>
+        </div>
+        <div id="divright">
+          <div class="undiv">
+            <img src="./assest/div3.png" alt="" />
+            <h3>15,000,000 appointments</h3>
+            <p>booked last month</p>
+          </div>
+          <div class="undiv">
+            <img src="./assest/div4.png" alt="" />
+            <h3>210,000 active doctors</h3>
+            <p>trust our solutions</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section5">
+      <div>
+        <h3>
+          Improve the lives of millions. <br />
+          Change yours forever.
+        </h3>
+        <p>
+          More than 2800 team mates share our same vision, goals and passion.
+          <br />
+          With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio,
+          Bologna, <br />
+          Mexico City and Curitiba, our search for great talent never stops.
+        </p>
+      </div>
+    </section>
+    <!-- section 5 -->
+    <section class="section6">
+      <div class="country">
+        <div class="shadow">
+          <img src="./assest/c1.png" alt="" />
+          <div class="bouton">
+            <p>Warsaw</p>
+            <button>SEE OPENINGS</button>
+          </div>
+        </div>
+        <div class="shadow">
+          <img src="./assest/c2.png" alt="" />
+          <div class="bouton">
+            <p>Barcelona</p>
+            <button>SEE OPENINGS</button>
+          </div>
+        </div>
+        <div class="shadow">
+          <img src="./assest/c3.png" alt="" />
+          <div class="bouton">
+            <p>Munich</p>
+            <button>SEE OPENINGS</button>
+          </div>
+        </div>
+        <div class="shadow">
+          <img src="./assest/c4.png" alt="" />
+          <div class="bouton">
+            <p>Istanbul</p>
+            <button>SEE OPENINGS</button>
+          </div>
+        </div>
+        <div class="shadow">
+          <img src="./assest/c5.png" alt="" />
+          <div class="bouton">
+            <p>Rome</p>
+            <button>SEE OPENINGS</button>
+          </div>
+        </div>
+        <div class="shadow">
+          <img src="./assest/c6.png" alt="" />
+          <div class="bouton">
+            <p>Bologna</p>
+            <button>SEE OPENINGS</button>
+          </div>
+        </div>
+        <div class="shadow">
+          <img src="./assest/c7.png" alt="" />
+          <div class="bouton">
+            <p>Curitiba</p>
+            <button>SEE OPENINGS</button>
+          </div>
+        </div>
+        <div class="shadow">
+          <img src="./assest/c8.png" alt="" />
+          <div class="bouton">
+            <p>Rio De Janeiro</p>
+            <button>SEE OPENINGS</button>
+          </div>
+        </div>
+        <div class="shadow">
+          <img src="./assest/c9.png" alt="" />
+          <div class="bouton">
+            <p>Mexico City</p>
+            <button>SEE OPENINGS</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 7 -->
+    <section class="section7">
+      <div><h1>Sounds interesting? Join us now!</h1></div>
+      <button>SEE ALL CURRENT OPENINGS</button>
+    </section>
+    <footer>
+      <div>
+        We are leaders in 13 countries: <a href="#">Poland</a> ,
+        <a href="#">Turky</a> ,<a href="#">Spain</a> , <a href="#">Italy</a> ,<a
+          href="#">ermany</a>
+        , <a href="#">Czech Republic</a>,<a href="#"> Portugal</a>,<a href="#">Mexico </a>,<a href="#"> Colombia</a> ,
+        <a href="#">Brazil</a>,<a href="#">Argentina </a>,<a href="#">Peru</a> and <a href="#">Chile</a>
+       <br><br>
+        <p>This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser.
+           <br> www.docplanner.com © 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
